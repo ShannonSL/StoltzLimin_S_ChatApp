@@ -1,0 +1,20 @@
+{
+  "name": "stoltzlimin_s_chatapp",
+  "version": "1.0.0",
+  "description": "social media app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShannonSL/StoltzLimin_S_ChatApp.git"
+  },
+  "author": "Shannon",
+  "license": "ISC",
+ 
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
