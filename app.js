@@ -31,6 +31,8 @@ io.on('connection', function(socket) {
     })
 
     socket.on('disconnect', function() {
-        console.log('a user has disconnected');
+        console.log('a user has left the chat');
+        io.emit('userconnect', { currentusers: currentusers });
+        io.emit('disconnect', {disconnection: "User Disconnected"});
     });
 });
